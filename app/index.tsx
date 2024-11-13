@@ -11,8 +11,8 @@ export default function Index() {
     },
     {
       imageSrc: require("../assets/icons/virus.png"),
-      title: "Epidemiologi dan Etiologi",
-      link: "/epidemiologi",
+      title: "Etiologi",
+      link: "/etiologi",
     },
     {
       imageSrc: require("../assets/icons/reproductive-system.png"),

@@ -16,8 +16,8 @@ export default function Index() {
     },
     {
       imageSrc: require("../assets/icons/reproductive-system.png"),
-      title: "Embriologi dan Proses Penurunan Testis",
-      link: "/embriologi",
+      title: "Klasifikasi",
+      link: "/klasifikasi",
     },
     {
       imageSrc: require("../assets/icons/classification.png"),

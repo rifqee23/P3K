@@ -1,22 +1,21 @@
 import React, { useState } from "react";
-import { View, Text, StyleSheet, ScrollView } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  ScrollView,
+  Modal,
+  Pressable,
+} from "react-native";
 import { Image } from "expo-image";
-const PlaceHolderImage = require("@/assets/images/main/IMG_6060.jpg");
+const PlaceHolderImage = require("@/assets/images/main/IMG_6047.png");
 
 export default function Etiologi() {
   const riskFactors = [
-    "Berjenis kelamin laki-laki.",
-    "Berusia di atas usia 55 tahun.",
-    "Memiliki kebiasaan merokok.",
-    "Memiliki riwayat kanker, baik pada diri sendiri maupun keluarga.",
-    "Terpapar bahan kimia, seperti arsenik atau bahan kimia yang digunakan pada industri pembuatan kulit, karet, tekstil, dan cat.",
-    "Pernah menjalani radioterapi untuk mengatasi kanker di dekat kandung kemih, seperti kanker usus.",
-    "Pernah menjalani kemoterapi.",
-    "Mengalami menopause terlalu awal, yaitu di bawah usia 45 tahun.",
-    "Menggunakan kateter urine dalam jangka panjang.",
-    "Menderita infeksi saluran kemih dan batu kandung kemih menahun.",
-    "Menderita skistosomiasis yang tidak diobati.",
-    "Menderita diabetes tipe 2.",
+    "Karsinoma urotelial (juga disebut karsinoma sel transisional) adalah kanker yang bermula di sel urotelial, yang melapisi uretra, kandung kemih, ureter, pelvis renalis , dan beberapa organ lainnya. Hampir semua kanker kandung kemih adalah karsinoma urotelial. Sel urotelial juga disebut sel transisi karena bentuknya berubah. Sel ini dapat meregang saat kandung kemih terisi penuh urin dan menyusut saat kosong.",
+    "Karsinoma sel skuamosa adalah kanker yang bermula di sel skuamosa (sel tipis dan datar yang melapisi bagian dalam kandung kemih). Jenis kanker ini dapat terbentuk setelah iritasi atau infeksi jangka panjang dengan parasit tropis yang disebut schistosomiasis, yang umum di Afrika dan Timur Tengah tetapi jarang terjadi di Amerika Serikat. Ketika iritasi kronis terjadi, sel transisional yang melapisi kandung kemih dapat secara bertahap berubah menjadi sel skuamosa.",
+    "Adenokarsinoma adalah kanker yang bermula di sel-sel kelenjar yang terdapat di lapisan kandung kemih. Sel-sel kelenjar di kandung kemih menghasilkan lendir dan zat-zat lainnya.",
+    "Karsinoma sel kecil pada kandung kemih adalah kanker yang bermula pada sel neuroendokrin (sel mirip saraf yang melepaskan hormon ke dalam darah sebagai respons terhadap sinyal dari sistem saraf).",
   ];
 
   return (
@@ -30,7 +29,7 @@ export default function Etiologi() {
           />
         </View>
 
-        <Text style={styles.headerText}>Etiologi</Text>
+        <Text style={styles.headerText}>Klasifikasi</Text>
         <Text style={styles.text}>
           Kanker kandung kemih disebabkan oleh perubahan (mutasi) pada sel-sel
           di dalam kandung kemih. Mutasi menyebabkan sel-sel tersebut tumbuh

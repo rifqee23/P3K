@@ -46,6 +46,27 @@ export default function RootLayout() {
           headerTintColor: "white",
         }}
       />
+
+      <Stack.Screen
+        name="klasifikasi"
+        options={{
+          headerTransparent: true,
+          headerShown: true,
+          headerTitle: () => {
+            return (
+              <Text
+                style={{
+                  display: "none",
+                }}
+              ></Text>
+            );
+          },
+          headerStyle: {
+            backgroundColor: "rgba(0,0,0,0.5)",
+          },
+          headerTintColor: "white",
+        }}
+      />
     </Stack>
   );
 }

@@ -116,7 +116,6 @@ const styles = StyleSheet.create({
   hero: {
     width: "100%",
     height: "100%",
-    contentFit: "stretch", // Sesuaikan gambar dalam container
   },
   imgContainer: {
     marginTop: 20,

@@ -15,9 +15,9 @@ export default function Index() {
       link: "/etiologi",
     },
     {
-      imageSrc: require("../assets/icons/reproductive-system.png"),
-      title: "Klasifikasi",
-      link: "/klasifikasi",
+      imageSrc: require("../assets/icons/patofisiologi.png"),
+      title: "Patofisiologi",
+      link: "/patofisiologi",
     },
     {
       imageSrc: require("../assets/icons/classification.png"),
@@ -25,14 +25,29 @@ export default function Index() {
       link: "/klasifikasi",
     },
     {
-      imageSrc: require("../assets/icons/diagnosis.png"),
-      title: "Diagnosis",
-      link: "/diagnosis",
+      imageSrc: require("../assets/icons/manifestasi.jpg"),
+      title: "Manifestasi Klinis",
+      link: "/manifestasi",
+    },
+    {
+      imageSrc: require("../assets/icons/stadium.jpg"),
+      title: "Stage",
+      link: "/stage",
+    },
+    {
+      imageSrc: require("../assets/icons/check.png"),
+      title: "Pemeriksaan Penunjang",
+      link: "/pemeriksaan",
     },
     {
       imageSrc: require("../assets/icons/all-inclusive.png"),
       title: "Tatalaksana",
       link: "/tatalaksana",
+    },
+    {
+      imageSrc: require("../assets/icons/pencegahan.png"),
+      title: "Pencegahan",
+      link: "/pencegahan",
     },
   ];
 

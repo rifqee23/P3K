@@ -48,6 +48,27 @@ export default function RootLayout() {
       />
 
       <Stack.Screen
+        name="patofisiologi"
+        options={{
+          headerTransparent: true,
+          headerShown: true,
+          headerTitle: () => {
+            return (
+              <Text
+                style={{
+                  display: "none",
+                }}
+              ></Text>
+            );
+          },
+          headerStyle: {
+            backgroundColor: "rgba(0,0,0,0.5)",
+          },
+          headerTintColor: "white",
+        }}
+      />
+
+      <Stack.Screen
         name="klasifikasi"
         options={{
           headerTransparent: true,
@@ -67,6 +88,132 @@ export default function RootLayout() {
           headerTintColor: "white",
         }}
       />
-    </Stack>
+
+      <Stack.Screen
+        name="about"
+        options={{
+          headerTransparent: true,
+          headerShown: true,
+          headerTitle: () => {
+            return (
+              <Text
+                style={{
+                  display: "none",
+                }}
+              ></Text>
+            );
+          },
+          headerStyle: {
+            backgroundColor: "rgba(0,0,0,0.5)",
+          },
+          headerTintColor: "white",
+        }}
+      />
+
+      <Stack.Screen
+        name="manifestasi"
+        options={{
+          headerTransparent: true,
+          headerShown: true,
+          headerTitle: () => {
+            return (
+              <Text
+                style={{
+                  display: "none",
+                }}
+              ></Text>
+            );
+          },
+          headerStyle: {
+            backgroundColor: "rgba(0,0,0,0.5)",
+          },
+          headerTintColor: "white",
+        }}
+      />
+
+      <Stack.Screen
+        name="stage"
+        options={{
+          headerTransparent: true,
+          headerShown: true,
+          headerTitle: () => {
+            return (
+              <Text
+                style={{
+                  display: "none",
+                }}
+              ></Text>
+            );
+          },
+          headerStyle: {
+            backgroundColor: "rgba(0,0,0,0.5)",
+          },
+          headerTintColor: "white",
+        }}
+      />
+
+      <Stack.Screen
+        name="pemeriksaan"
+        options={{
+          headerTransparent: true,
+          headerShown: true,
+          headerTitle: () => {
+            return (
+              <Text
+                style={{
+                  display: "none",
+                }}
+              ></Text>
+            );
+          },
+          headerStyle: {
+            backgroundColor: "rgba(0,0,0,0.5)",
+          },
+          headerTintColor: "white",
+        }}
+      />
+
+      <Stack.Screen
+        name="tatalaksana"
+        options={{
+          headerTransparent: true,
+          headerShown: true,
+          headerTitle: () => {
+            return (
+              <Text
+                style={{
+                  display: "none",
+                }}
+              ></Text>
+            );
+          },
+          headerStyle: {
+            backgroundColor: "rgba(0,0,0,0.5)",
+          },
+          headerTintColor: "white",
+        }}
+      />
+
+      <Stack.Screen
+        name="pencegahan"
+        options={{
+          headerTransparent: true,
+          headerShown: true,
+          headerTitle: () => {
+            return (
+              <Text
+                style={{
+                  display: "none",
+                }}
+              ></Text>
+            );
+          },
+          headerStyle: {
+            backgroundColor: "rgba(0,0,0,0.5)",
+          },
+          headerTintColor: "white",
+        }}
+      />
+    </Stack >
   );
 }

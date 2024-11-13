@@ -19,6 +19,7 @@ export default function Etiologi() {
   ];
 
   return (
+    
     <View style={styles.container}>
       <ScrollView>
         <View style={styles.heroContainer}>
@@ -30,15 +31,7 @@ export default function Etiologi() {
         </View>
 
         <Text style={styles.headerText}>Klasifikasi</Text>
-        <Text style={styles.text}>
-          Kanker kandung kemih disebabkan oleh perubahan (mutasi) pada sel-sel
-          di dalam kandung kemih. Mutasi menyebabkan sel-sel tersebut tumbuh
-          tidak terkendali dan membentuk sel kanker yang dapat menyebar
-          (metastasis) ke organ tubuh lain. Belum diketahui apa yang menyebabkan
-          sel-sel tersebut bermutasi menjadi sel kanker.
-        </Text>
 
-        <Text style={styles.headerText}>Faktor Risiko</Text>
         <View style={styles.listContainer}>
           {riskFactors.map((item, index) => (
             <View key={index} style={styles.listItemContainer}>
@@ -101,17 +94,16 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     lineHeight: 24,
-    color: "#4a4a4a",
+    color: "#000000",
   },
   heroContainer: {
     position: "relative",
-    height: 200,
     overflow: "hidden",
     borderRadius: 12,
     marginBottom: 20,
   },
   hero: {
     width: "100%",
-    height: "100%",
+    height: 450,
   },
 });

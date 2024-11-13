@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     lineHeight: 24,
-    color: "#4a4a4a",
+    color: "#000000",
   },
   heroContainer: {
     position: "relative",
